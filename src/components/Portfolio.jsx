@@ -40,7 +40,7 @@ const projects = [
       title: "Music Player Level-2",
       description: "A simple and elegant music player with a modern UI built using HTML, CSS, and JavaScript. with various features.",
       links: {
-        site: "#",
+        site: "https://suryanag0999.github.io/music-app-L2/",
         github: "https://github.com/suryanag0999/music-app-L2",
       },
     },
@@ -49,7 +49,7 @@ const projects = [
       title: "Weather App",
       description: "This is a React-based Weather Application that provides real-time weather forecasts using the Open-Meteo API.",
       links: {
-        site: "#",
+        site: "https://suryanag0999.github.io/weather-app-level-2/",
         github: "https://github.com/suryanag0999/weather-app-level-2",
       },
     },
@@ -58,7 +58,7 @@ const projects = [
       title: "usePopcorn",
       description: "simple React application that allows users to search for movies, view their details, rate them, and add them to a watched list.",
       links: {
-        site: "#",
+        site: "https://suryanag0999.github.io/use-popcorn/",
         github: "https://github.com/suryanag0999/use-popcorn",
       },
     },
