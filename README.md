@@ -33,3 +33,25 @@ A sleek and modern personal portfolio website built with **React** and **Tailwin
    ```bash
    git clone https://github.com/your-username/your-portfolio.git
    cd your-portfolio
+   
+Install dependencies:
+npm install react-icons react-scroll framer-motion
+npm install react-type-animation
+npm install
+
+Start the development server:
+npm start
+
+##Contact 
+This portfolio includes a contact form that allows visitors to send messages directly to your email using Getform.io. It requires no backend setup — just connect your form with a Getform endpoint, and you're good to go!
+
+📄 Resume
+Visitors can view and download your resume directly from the website.
+
+ Customize It
+Feel free to fork this repo and make it your own by:
+Updating the project details
+Adding more sections (like testimonials or certifications)
+Enhancing animations
+Adding a dark mode toggle
+
