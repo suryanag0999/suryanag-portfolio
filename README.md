@@ -1,6 +1,6 @@
 #  Personal Portfolio
 
-A sleek and modern personal portfolio website built with **React** and **Tailwind CSS**. This app showcases my projects, resume, blogs, and contact options in an interactive and responsive way
+A sleek and modern personal portfolio website built with **React** and **Tailwind CSS**. This app showcases my projects, resume, blogs, and contact options in an interactive and responsive way.
 
 ## 🚀 Features
 
