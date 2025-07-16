@@ -13,6 +13,7 @@ import project11 from "../assets/project11.jpg"
 import project12 from "../assets/project12.png"
 import project13 from "../assets/project13.jpg"
 import project14 from "../assets/project14.jpg"
+import project15 from "../assets/project15.jpg"
 import Python1 from "../assets/Python.jpg"
 import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
@@ -150,6 +151,16 @@ const projects = [
       },
     },
     {
+      img: project15,
+      title: "homelyhub mern",
+      description: "homely hub an holiday booking app",
+      links: {
+        site: "https://homely-hub-mern.netlify.app/",
+        github: "https://github.com/suryanag0999/Homely-Hub-Mern",
+      },
+    },
+
+    {
       img: project14,
       title: "Ongoing & Upcoming Projects",
       description: "More projects and upcoming work are in progress. You can explore my current repositories on GitHub, and stay tuned for future updates — new projects will be added soon.",
@@ -164,7 +175,7 @@ const projects = [
     return (
       <div className="max-w-[1000px] mx-auto p-6 md:my-20" id="portfolio">
         <h2 className="text-3xl font-bold text-gray-200 mb-8">Portfolio</h2>
-        {projects.map((project, index) => (
+        {projects.slice().reverse().map((project, index) => (
           <Reveal key={index}>
             <div
               className={`flex flex-col md:flex-row ${
